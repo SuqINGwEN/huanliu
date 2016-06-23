@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">huanliu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="activity_firstfragment_logo_name">欢流视频</string>
+    <string name="activity_fragment_geren_geren">个人</string>
+    <string name="activity_fragment_geren_zhucedenglu">注册/登录</string>
+    <string name="activity_fragment_geren_xiazaiguanli">下载管理</string>
+    <string name="activity_fragment_geren_guankanlishi">观看历史</string>
+    <string name="activity_fragment_geren_wodeshoucang">我的收藏</string>
+    <string name="activity_fragment_geren_qita">其他</string>
+    <string name="activity_fragment_geren_shezhi">设置</string>
+    <string name="activity_fragment_geren_erweima">二维码扫描</string>
+    <string name="activity_fragment_geren_tuijian">推荐</string>
+    <string name="activity_fragment_geren_wentifankui">问题反馈</string>
+    <string name="activity_fragment_geren_guanyu">关于</string>
+    <string name="title_activity_register_login">RegisterLoginActivity</string>
+    <string name="title_activity_download_management">DownloadManagementActivity</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_my_collection">MyCollectionActivity</string>
+    <string name="title_activity_qr_code">QrCodeActivity</string>
+    <string name="title_activity_recommended">RecommendedActivity</string>
+    <string name="title_activity_feedback">FeedbackActivity</string>
+    <string name="title_activity_about_project">AboutProjectActivity</string>
+
+</resources>
