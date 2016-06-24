@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.huanliu.R;
 
+
 public class SettingActivity extends Activity {
     private TextView textView;
     @Override

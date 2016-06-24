@@ -1,6 +1,7 @@
 package com.huanliu.geren.zhucedenglu;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -10,6 +11,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.huanliu.R;
+import com.huanliu.shouyefragment.GeRenFragment;
 import com.huanliu.util.share.SignupPage;
 
 import java.util.HashMap;
@@ -46,6 +48,8 @@ public class RegisterLoginActivity extends Activity
         findViewById(R.id.qQlogin).setOnClickListener(this);
         findViewById(R.id.sinaWbLogin).setOnClickListener(this);
 
+        
+        
         handler = new Handler(this);
     }
 
@@ -61,6 +65,7 @@ public class RegisterLoginActivity extends Activity
                 break;
             case R.id.sinaWbLogin:
                 Platform weibo = ShareSDK.getPlatform(SinaWeibo.NAME);
+                authorize(weibo);
                 break;
         }
     }
@@ -90,10 +95,11 @@ public class RegisterLoginActivity extends Activity
                 Toast.makeText(this,"登陆成功",Toast.LENGTH_SHORT).show();
                 Object[] res= (Object[]) msg.obj;
                 String platName= (String) res[0];
-                HashMap<String,Object> userData= (HashMap<String, Object>) res[1];
+//                HashMap<String,Object> userData= (HashMap<String, Object>) res[1];
                 SignupPage signupPage=new SignupPage();
                 signupPage.setPlatform(platName);
-                
+                Intent intent=new Intent(this,GeRenFragment.class);
+                startActivity(intent);
                 break;
         }
         return false;

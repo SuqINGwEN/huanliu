@@ -66,7 +66,7 @@
         RedirectUrl="http://www.sharesdk.cn"
         ShareByAppClient="true"
         Enable="true" />
-
+    
     <TencentWeibo
         Id="2" 
         SortId="2"

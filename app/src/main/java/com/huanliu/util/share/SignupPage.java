@@ -17,7 +17,16 @@ public class SignupPage extends FakeActivity {
     @Override
     public void onCreate() {
         super.onCreate();
+//        initData();
     }
+
+//    private void initData() {
+//        if(platform!=null){
+//            PlatformDb db=platform.getDb();
+//            String username=db.getUserName();
+//            Intent intent=new Intent(, GeRenFragment.class);
+//        }
+//    }
 
     public void setUserData(HashMap<String, Object> userData) {
         this.userData = userData;

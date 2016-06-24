@@ -26,5 +26,6 @@
     <string name="title_activity_recommended">RecommendedActivity</string>
     <string name="title_activity_feedback">FeedbackActivity</string>
     <string name="title_activity_about_project">AboutProjectActivity</string>
-
+    <string name="activity_fragment_geren_quit">退出登录</string>
+    <string name="activity_fragment_geren_quit_success">退出成功</string>
 </resources>

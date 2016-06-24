@@ -3,10 +3,27 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="256dp"
-        android:layout_height="wrap_content"
-        android:text="下载视频"
-        android:id="@+id/textView12"
-        android:layout_gravity="right" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="无本地视频"
+            android:id="@+id/textView3"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_above="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/download_none_bg"
+            android:layout_marginBottom="10dp" />
+    </RelativeLayout>
 </LinearLayout>
